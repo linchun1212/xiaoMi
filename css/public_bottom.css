@@ -1,0 +1,161 @@
+.footer{
+    width: 100%;
+    min-width: 1226px;
+    background: #fff;
+}
+.footer .footer_main{
+    width: 1226px;
+    height: 272px;
+    margin: 0 auto;
+
+}
+.footer_main .footer_nva{
+    height: 25px;
+    padding: 27px 0 27px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.footer_nva li{
+    width: 244px;
+    float: left;
+    border-right: 1px solid #e0e0e0;
+}
+.footer_nva .footer_li05{
+    border-right:  none;
+}
+.footer_nva li a {
+    display: block;
+    width: 155px;
+    font-size: 16px;
+    height: 25px;
+    color: #616161;
+    margin: 0 auto;
+}
+.footer_nva li a:hover{
+    color: #ff6700;
+}
+.footer_nva li a span{
+    font-size: 24px;
+    display: inline-block;
+    line-height: 25px;
+    margin-right: 6px;
+    vertical-align: top;
+}
+    /*底部电话旁边的导航  */
+.footer_main .footer_secondNva{
+    width: 160px;
+    padding-top: 40px;
+    float: left;
+}
+.footer_secondNva dt{
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 44px;
+}
+.footer_secondNva dd{
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 17px;
+}
+.footer_secondNva dd a:hover{
+    color: #ff6700;
+}
+.footer_main .footer_tel{
+    width: 245px;
+    height: 112px;
+    margin-top: 40px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    float: right;
+}
+.footer_main .footer_tel01{
+    font-size: 22px;
+    color: #ff6700;
+    margin-bottom: 9px;
+}
+.footer_tel p{
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 16px;
+}
+
+.footer_tel .kefu{
+    display: block;
+    width: 118px;
+    line-height: 28px;
+    font-size: 12px;
+    color: #ff6700;
+    margin: 0 auto;
+    border: 1px solid #ff6700;
+}
+.footer_tel .kefu:hover{
+    color: #fff;
+    background: #ff6700;
+}
+
+/* 最后的注释部位 */
+.last{
+    width: 100%;
+    height: 231px;
+    min-width: 1226px;
+    background: #fafafa;
+}
+.last .last_main{
+    width: 1226px;
+    height: 201px;
+    margin: 0 auto;
+    padding-top: 30px;
+    background: url(../images/slogan.png) no-repeat center 180px;
+    position: relative;
+}
+.last_main .last_logo{
+    display: block;
+    margin-right: 10px;
+    float: left;
+}
+.last_main .last_right{
+    width: 1159px;
+    height: 123px;
+    float: left;
+}
+.last_right .last_first a{
+    font-size: 12px;
+    line-height: 14px;
+    color: #757575;
+}
+
+.last_right .last_first span{
+    height: 14px;
+    color: #757575;
+    padding: 0 3px 0;
+}
+.last_right .last_first a:hover{
+    color: #ff6700;
+}
+.last_right p{
+    font-size: 12px;
+    line-height: 18px;
+    color: #b0b0b0;
+}
+.last_second .iconfont-banquan{
+    width: 12px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.last_right p a{
+    font-size: 12px;
+    line-height: 18px;
+    color: #b0b0b0;
+}
+.last_second a:hover{
+    color: #ff6700;
+}
+.last_right .wangzhan{
+    margin-top: 5px;
+}
+.last_main .fashao{
+    margin: 30px auto 0;
+    font: 18px/27px "楷体";
+    color: #bababa;
+    position: absolute;
+    top: 180px;
+}

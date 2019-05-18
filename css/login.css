@@ -1,0 +1,169 @@
+.login-logo{
+    width: 100%;
+    min-width: 1132px;
+    height: 98px;
+    background: #fff;
+}
+.logo-main01{
+    width: 1131px;
+    height: 73px;
+    padding: 25px 0 0 1px; 
+    margin: 0 auto;
+}
+.logo-main01 .logo_tu{
+    display: block;
+    float: left;
+}
+.logo_zi{
+    width: 156px;
+    height: 54px;
+    margin-left: 22px;
+    float: left;
+}
+.logo_zi .shangcheng{
+    font-size: 30px;
+    color: #000;
+    line-height: 30px;
+}
+.logo_zi .shangcheng01{
+    display: block;
+    font-size: 12px;
+    line-height: 24px;
+    color: #7a7a7a;
+}
+/* 中间大图 */
+.login_center{
+    width: 100%;
+    height: 447px;
+    padding-top: 32px;
+    min-width: 1132px;
+    background: url(../images/denglubg.jpg) no-repeat center;
+}
+.login_main{
+    width: 1132px;
+    height: 479px;
+    margin: 0 auto;
+    position: relative;
+}
+.login_main .login01{
+    width: 412px;
+    height: 586px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 29px;
+}
+.login_main .denglu{
+    width: 348px;
+    height: 29px; 
+    margin: 0 auto 34px; 
+
+}
+.denglu li{
+    width: 173px;
+    line-height: 29px;
+    font-size: 24px;
+    color: #666666;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #e0e0e0;
+} 
+.denglu li:hover{
+    color: #f56600;
+}
+.denglu .denglu_saoma{
+    border-left: 1px solid #e0e0e0;
+    border-right: none;
+}
+.login01 input{
+    display: block;
+    width: 332px;
+    height: 48px;
+    border: 1px solid #e0e0e0;
+    padding: 0 0 0 14px;
+    margin: 0 auto;
+    color: #9d9d9d;
+}
+.login01 .denglu_tell{
+    margin-bottom: 14px;
+}
+.login01 .denglu_tijiao{
+    width: 348px;
+    height: 50px;
+    margin: 24px auto 13px;
+    background: #ef5b00;
+    color: #fff;
+    padding: 0;
+    border: none;
+}
+.login01 .denglu_tijiao:hover{
+    cursor: pointer;
+}
+.login01 .duanxin{
+    margin-left: 32px;
+    line-height: 12px;
+    color: #999;
+    float: left;
+}
+.login01 .duanxin:hover a{
+    color: #f56600;
+}
+.password01{
+    float: right;
+    margin-right: 32px;
+    color: #999;
+}
+.password01 .liji{
+    display: block;
+    float: left;
+    padding-right: 6px;
+    line-height: 12px;
+    border-right: 1px solid #999;
+}
+.password01 .wangji{
+    float: right;
+    line-height: 12px;
+    margin-left: 6px;
+}
+.password01 a:hover{
+    color: #ef5b00;
+}
+.login01 .xian{
+    width: 132px;
+    height: 1px;
+    background: #999;
+    position: absolute;
+}
+.login01 .xian01{
+    left: 32px;
+    top: 441px;
+}
+.login01 .xian02{
+    top: 441px;
+    right: 32px;
+}
+.login01 .qitafangshi{
+    line-height: 12px;
+    position: absolute;
+    top: 435px;
+    left: 170px;
+    color: #999;
+}
+.login01 .fangshi{
+    width: 272px;
+    height: 30px;
+    position: absolute;
+    left: 50px;
+    top: 464px;
+}
+.fangshi li{
+    float: left;
+    margin-left: 38px;
+}
+
+/* 底部公共部分 */
+#login_bottom{
+    margin-top: 167px;
+    background: #fff;
+}

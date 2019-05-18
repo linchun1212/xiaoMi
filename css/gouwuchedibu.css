@@ -1,0 +1,37 @@
+.iphne01 .xiaomi9{
+    display: block;
+    width: 234px;
+    height: 300px;
+    background: #fff;
+    margin-left: 14px;
+    text-align: center;
+    float: left;
+    /* position: absolute; */
+}
+.iphne01 .xiaomi99{
+    margin-top: 14px; 
+    float: left;
+}
+.iphne01 .xinpin{
+    width: 64px;
+    text-align: center;
+    line-height: 20px;
+    margin: 0 auto;
+    background: #83c44e;
+    color: #fff;
+}
+.xiaomi9 .jian{
+    background:#e53935;
+}
+.iphne01 .xiaomi09{
+    width: 234px;
+    height: 195px;
+    /* text-align: center; */
+}
+.xiaomi09 img{
+    margin-bottom: 18px;
+}
+.xiaomi9 .desc{
+    line-height: 12px;
+    color: #b0b0b0;
+}

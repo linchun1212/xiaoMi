@@ -1,0 +1,219 @@
+/* 顶部导航 */
+.top{
+    width: 100%;
+    min-width: 1226px;
+    background: #333333;
+}
+.top .top_main{
+    width: 1226px;
+    height: 40px;
+    margin: 0 auto;
+}
+    /* 左边的导航 */
+.top_main .left_nva{
+    width: 953px;
+    height: 40px;
+    float: left;
+}
+.left_nva .nva_left{
+    display: block;
+    font: 12px/40px "微软雅黑";
+    color: #b0b0b0;
+    float: left;
+}
+.left_nva .nva_left:hover{
+    color: #fff;
+}
+.left_nva span{
+    color: #3c423c;
+    margin:0 7px 0 7px;
+}
+.app{
+    position: relative;
+    
+}
+.app .App{
+    width: 124px;
+    height: 160px;
+    display: none;
+    position: absolute;
+    left: -42px;
+    top: 30px;   
+}
+.left_nva .nva_left:hover .App{
+    display: block;
+    z-index: 99999;
+}
+.App .triangular{
+    display: block;
+    width: 0;
+    margin: 0 auto;
+    border-bottom: 10px solid #fff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+.App .ewm{
+    display: block;
+    width: 124px;
+    height: 130px;
+    padding-top: 20px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 4px 5px 0px #cec6c6;
+}
+.erweima{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3px;
+}
+
+    /* 右边的导航 */
+.top_main .right_nva{
+    width: 273px;
+    height: 40px;
+    float: left;
+}
+.right_nva .nva_right{
+    display: block;
+    font: 12px/40px "微软雅黑";
+    color: #b0b0b0;
+    float: left;
+}
+.right_nva .nva_right:hover{
+    color: #fff;
+}
+.right_nva span{
+    color: #3c423c;
+    margin:0 7px 0 7px;
+}
+.right_nva .shopping{
+    width: 80px;
+    margin-left:22px;
+    text-align: center;
+    padding-left: 40px;
+    background: #424242 url(../images/shopping.png) no-repeat 22px 14px;
+    position: relative;
+}
+.right_nva .shopping:hover{
+    background: #fff;
+    color: #ff6700;
+    background: #fff url(../images/shopping01.png) no-repeat 22px 14px;
+}
+.right_nva .shoppingCar{
+    width: 316px;
+    height: 98px;
+    position: absolute;
+    left: -196px;
+    top: 40px;
+    margin: 0 0;
+    display: none;
+    font: 12px/98px "微软雅黑";
+    color: #424242;
+    text-align: center;
+    background: white;
+    box-shadow: 0px 4px 5px 0px #cec6c6;
+}
+.right_nva .shopping:hover .shoppingCar{
+    display: block;
+    z-index: 99999;
+}
+
+/* logo导航 */
+.logo_nva{
+    width: 100%;
+    min-width: 1226px;
+    background: #fff;
+}
+.logo_nva .logo_main{
+    width: 1226px;
+    height: 78px;
+    margin: 0 auto;
+    padding-top: 22px;
+}
+.logo_main .logo{
+    display: block;
+    float: left;
+}
+.logo_main .logo_nvaMain{
+    width: 696px;
+    height: 78px;
+    margin-left: 179px;
+    float: left;
+}
+.logo_nvaMain .nav02{
+    float: left;
+    height: 78px;
+    font: 16px/56px "微软雅黑";
+    color: #333;
+    padding-right: 20px;
+}
+.logo_nvaMain .xiaoMiTel{
+    padding-left: 10px;
+}
+.logo_nvaMain .nav02:hover{
+    color: #ff6700;
+}
+    /* 右边搜索部位 */
+.logo_main form{
+    width: 296px;
+    height: 75px;
+    float: right;
+    padding-top: 3px;
+    position: relative;
+}
+form .form01{
+    width: 233px;
+    height: 50px;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #e0e0e0;
+    padding: 0 0 0 10px;
+}
+form .form01:hover{
+    border-color: #b0b0b0;
+}
+
+form .form02{
+    width: 50px;
+    line-height: 50px;
+    outline: none;
+    float:right;
+    border-style: solid;
+    border-color: #e0e0e0;
+    border-width: 1px 1px 1px 0;
+    text-align: center;
+}
+.form02 .suosou01{
+    font-size: 20px;
+    display: block;  
+}
+form .form02:hover{
+    border-color: #ff6700;
+    background: #ff6700;
+}
+.form02:hover .suosou01{
+    color: #fff;
+}
+form .mi{
+    position: absolute;
+    top: 19px;
+    left: 118px;
+    line-height: 18px;
+    color: #757575;
+    text-align: center;
+}
+form .hongmi{
+    display: inline-block;
+    width: 70px;
+    background: #eee;
+}
+form .mi8{
+    display: inline-block;
+    width: 41px;
+    background: #eee;
+    margin-left: 5px;
+}
+form .hongmi:hover,form .mi8:hover{
+    background: #ff6700;
+    color: #fff;
+}

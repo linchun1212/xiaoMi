@@ -1,0 +1,827 @@
+/* 公共部分 */
+h2{
+    font-weight: 200;
+    font:  22px/58px "微软雅黑";
+}
+.title{
+    font-weight: 400;
+    font: 14px/14px "微软雅黑";
+    color: #212121;
+}
+.desc{
+    line-height: 12px;
+    margin-top: 7px;
+    color: #b0b0b0;
+}
+.price{
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ff6709;
+}
+.price .price02{
+    color: #b0b0b0;
+    text-decoration: line-through;
+    margin: 0 auto;
+}
+.left{
+    width: 234px;
+    height: 614px;
+
+}
+/* 轮播图 */
+.wheel{
+    width: 100%;
+    min-width: 1226px;
+    height: 460px;
+    background: #fff;
+}
+.wheel .wheei_main{
+    width: 1226px;
+    height: 460px;
+    margin: 0 auto;
+    position: relative;
+}
+.wheei_main .lunbo{
+    display: block;
+}
+.wheei_main .wheel_nav{
+    width: 234px;
+    height: 440px;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0px;
+    padding-top: 20px;   
+}
+.wheel_nav02{
+    display: block;
+    width: 204px;
+    color: #fff;
+    padding-left: 30px;
+    font: 14px/42px "微软雅黑";
+}
+.wheel_nav .wheel_nav02:hover{
+    background: #ff6700;
+    color: #fff;
+}
+.wheel_nav01 .jianjiao{
+    float: right;
+    margin: 15px 24px 0 0 ;
+}
+    /* 手机手机卡弹窗 */
+.wheel_nav01 .tanChuang{
+    height: 453px;
+    width: 992px;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    border-color: #e0e0e0;
+    background: #fff;
+    box-shadow: 2px 0px 5px 2px #f7f7f7;
+    padding-top: 3px; 
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 234px;
+    display: none;
+}
+.wheel_nav01:hover .tanChuang {
+    display: block;
+}
+.tanChuang .mi9{
+    display:  block;
+    width: 221px;
+    height: 38px;
+    padding: 19px 0 19px 25px;
+    float: left;
+    line-height: 38px;
+}
+.tanChuang .mi9 img{
+    display: block;
+    float: left;
+    padding-right: 15px;
+}
+
+.tanChuang a:hover {
+    color: #ff6700;
+}
+.wheel_nav01 .tanChuang03,.wheel_nav01 .tanChuang05,.wheel_nav01 .tanChuang06,.wheel_nav01 .tanChuang09{
+    width: 530px;
+}
+
+/* 轮播图下面的图片 */
+.FastTrack{
+    width: 100%;
+    min-width: 1226px;
+    background: #fff;
+}
+.FastTrack .FastTrack_main{
+    width: 1226px;
+    height: 170px;
+    margin: 0 auto 26px;
+    padding-top: 14px;
+}
+
+.FastTrack_main .left01{
+    width: 228px;
+    height: 164px;
+    background: #5f5750;
+    float: left;
+    padding: 3px;
+}
+.left01 li{
+    width: 70px;
+    height: 82px;
+    float: left;
+    padding: 0 3px 0;
+    position: relative;
+    /* background: red */
+    
+}
+.left01 li .xuebi{
+    display: block;
+    margin: 0 auto;
+    width: 64px;
+    height: 52px; 
+    padding-top: 18px;
+    /* background: #83c44e; */
+    text-align: center;
+    font-size: 12px;
+    color: #cfcdcb;
+}
+.xuebi .jingling{
+    width: 49px;
+    height: 43px;
+    margin: 0 auto;
+    background: url(../images/css.png) no-repeat -16px -20px;
+}
+.xuebi .jingling:hover{
+    background-position: -17px -190px;
+}
+.xuebi .jing01{
+    background-position-x: -92px;
+}
+.xuebi .jing01:hover{
+    background-position-x: -92px ;
+}
+.xuebi .jing02{
+    background-position-x: -171px;
+}
+.xuebi .jing02:hover{
+    background-position-x: -170px ;
+}
+.xuebi .jing03{
+    background-position: -17px -102px;
+}
+.xuebi .jing03:hover{
+    background-position-y: -271px;
+}
+.xuebi .jing04{
+    background-position: -92px -104px;
+}
+.xuebi .jing04:hover{
+    background-position: -94px -271px;
+}
+.xuebi .jing05{
+    background-position: -168px -104px;
+}
+.xuebi .jing05:hover{
+    background-position: -168px -272px;
+}
+.left01 li .shuxian{
+    width: 1px;
+    height: 70px;
+    background: #665e57;
+    position: absolute;
+    top: 6px;
+    left: 75px;
+}
+.left01 li .hengxian{
+    width: 64px;
+    height: 1px;
+    background: #665e57;
+    position: absolute;
+    top: 81px;
+    left: 6px;
+}
+.FastTrack_main .right01{
+    display: block;
+    margin-left: 15px;
+    float: left;
+}
+.FastTrack_main #right001{
+    margin-left: 14px;
+}
+
+/*闪购部分的图 */
+.flash{
+    width: 100%;
+    min-width: 1226px;
+    height: 628px;
+}
+.flash .flash_main{
+    width: 1226px;
+    height: 628px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main_more{
+    width: 70px;
+    height: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 24px;
+}
+.main_more .more01{
+    display: block;
+    border: 1px solid #e0e0e0;
+    float: left;
+    text-align: center;
+    line-height: 23px;
+}
+.main_more .more_left{ 
+    width: 34px;
+}
+.main_more .more_right{
+    width: 33px;
+    border-left: none;
+}
+    /* 闪购时间倒计时 */
+.flash_main .shangou{
+    width: 234px;
+    height: 279px;
+    border-top: 1px solid #e53935;
+    float: left;
+    background: #f1eded;
+    padding-top: 60px;
+    text-align: center;
+}
+.shangou .timeField{
+    font-size: 20px;
+    line-height: 20px;
+    color: #ef3a3b;
+}
+.shangou .shandian{
+    display: block;
+    margin: 31px auto 0;
+}
+.shangou .end{
+    font-size: 15px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.54);
+    margin-top: 35px;
+}
+.shangou .countdown{
+    width: 168px;
+    height: 46px;
+    margin: 33px auto 0;
+}
+.countdown p{
+    float: left;
+}
+.shangou .countdown .shuzi{
+    width: 46px;
+    height: 46px;
+    background: #605751;
+    font-size: 24px;
+    line-height: 46px;
+    color: #fff;
+}
+.countdown .dian{
+    width: 15px;
+    height: 46px;
+    background:url(../images/dian.png) no-repeat;
+
+}
+    /* 闪购右边图片 */
+.flash_main li{
+    float: left;
+    margin-left: 14px;
+    background: #fafafa;
+    border-top: 1px solid #ffac13;
+    text-align: center; 
+}
+.shan .mix2{
+    display: block;
+    width: 234px;
+    height: 300px;
+    padding-top: 39px;
+    text-align: center;
+}
+.shan .mix2 img{
+    display: block;
+    margin:0 auto 22px;
+}
+.flash_main .gou02{
+    border-color: #83c44e;
+}
+.flash_main .gou03{
+    border-color: #2196f3;
+}
+.flash_main .gou4{
+    border-color: #e53935;
+}
+/* 底部照片 */
+.bottomPicture{
+    display: block;
+    width: 1226px;
+    height: 120px;
+    position: absolute;
+    top: 466px;
+}
+
+/* 手机部位 */
+.iphoe{
+    width: 100%;
+    height: 856px;
+    min-width: 1226px;
+    background: #f5f5f5;
+}
+.iphoe .iphone_main{
+    width: 1226px;
+    height: 834px;
+    margin: 0 auto;
+    padding-top: 22px;
+    position: relative;
+}
+.chaKan{
+    display: block;
+    height: 58px;
+    position: absolute;
+    top: 22px;
+    right:0;
+}
+.chaKan .all{
+ color: #424242;
+    font: 16px;
+    line-height: 58px;
+    float: left;
+}
+.chaKan .dayu{
+    width: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    background: #b0b0b0;
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    float: left;
+    margin: 19px 0 0 8px;
+}
+
+.chaKan:hover .all{
+    color: #ff6709;
+}
+.chaKan:hover .dayu{
+    background: #ff6709;
+}
+.left .mix3{
+    display: block;
+    width: 234px;
+    height: 614px;
+}
+    /* 手机右边的图片 */
+.iphone_main .iphne01{
+    position: absolute;
+    top: 80px;
+    left: 234px;
+    width: 992px;
+}
+.iphne01 .xiaomi9{
+    display: block;
+    width: 234px;
+    height: 300px;
+    background: #fff;
+    margin-left: 14px;
+    text-align: center;
+    float: left;
+    /* position: absolute; */
+}
+.iphne01 .xiaomi99{
+    margin-top: 14px; 
+    float: left;
+}
+.iphne01 .xinpin{
+    width: 64px;
+    text-align: center;
+    line-height: 20px;
+    margin: 0 auto;
+    background: #83c44e;
+    color: #fff;
+}
+.xiaomi9 .jian{
+    background:#e53935;
+}
+.iphne01 .xiaomi09{
+    width: 234px;
+    height: 195px;
+    /* text-align: center; */
+}
+.xiaomi09 img{
+    margin-bottom: 18px;
+}
+.xiaomi9 .desc{
+    line-height: 12px;
+    color: #b0b0b0;
+}
+.iphone_main .bottomPicture{
+    top: 736px;
+}
+
+/* 家电部分 */
+.iphone_main .tv_list{
+    width: 288px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+.tv_list .list01{
+    float: left;
+    font-size: 16px;
+    line-height: 16px;
+    margin-left: 30px;
+    color: #333;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+}
+.tv_list .list01:hover{
+    color: #ff6700;
+    cursor: pointer;
+    border-color: #ff6700;
+}
+.left .left_top{
+    display: block;
+    margin-bottom: 14px;
+}
+.xiaomi9{
+    position: relative;
+} 
+.xiaomi9 .tan{
+    width: 234px;
+    height: 65px;
+    background: #ff6700;
+    padding-top: 11px;
+    position: absolute;
+    top: 224px;
+    display: none;
+}
+.xiaomi9:hover .tan{
+    display: block;
+    cursor: pointer;
+}
+.tan p{
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 30px;
+    color: #fff;
+    text-align: left;
+}
+.tan .tan02{
+    margin-top: 12px;
+    color: #ffc299;
+}
+.iphne01 .last01{
+    background:none;
+}
+.xiaomi9 .xiaomi9_top{
+    margin-bottom: 14px;
+    /* position: relative; */
+}
+.xiaomi9 .xiaomi9_top,.xiaomi9_bottom{
+    width: 204px;
+    height: 103px;
+    padding-left: 30px;
+    background: #fff;
+    text-align: left;
+    padding-top: 40px;
+    /* position: absolute; */
+}
+.xiaomi9_top a{
+    display: block;
+}
+.xiaomi9_top a:hover{
+    color: #333;
+}
+.xiaomi9_top .zi{
+    width: 100px;
+    color: #333;
+}
+.xiaomi9_top .public01{
+    width: 80px;
+    margin-left: 100px;
+    margin-top: -15px;
+}
+.xiaomi9_top p{
+    margin-top: -42px;
+    color: #ff6700;
+}
+.xiaomi9_bottom .youjiantou{
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin-left: 120px;
+}
+.xiaomi9_bottom .jiantou_more{
+    width: 94px;
+    font-size: 18px;
+    color: #333;
+    position: relative;
+    top:-40px;
+}
+.jiantou_more span{
+    font-size: 12px;
+}
+.xiaomi9_bottom .jiantou_more:hover{
+    color: #333;
+}
+
+/* 智能部位 */
+.iphone_main .zhiNeng{
+    width: 333px;
+}
+.xiaomi9 .price03{
+    color: #ff6709;
+    font-size: 14px;
+}
+.xiaomi9 .price{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+/* 配件部位 */
+.iphone_main .peijian{
+    width: 296px;
+}
+
+/*周边部位  */
+.iphone_main .zhoubian{
+    width: 342px;
+}
+/* 为你推荐 */
+.recommend{
+    width: 100%;
+    min-width: 1226px;
+    background: #f5f5f5;
+}
+.recommend .recommend_main{
+    width: 1226px;
+    height: 358px;
+    margin: 0 auto;
+    padding-top: 22px;
+    position: relative;
+}
+.recommend_main .main_more{
+    top: 18px;
+}
+.recommend_main .Mouse{
+    margin-left: 0;
+}
+.recommend_main .Mouse01{
+    margin-top: 0;
+}
+/* 热评产品 */
+.hot{
+    width: 100%;
+    min-width: 1226px;
+    background: #f5f5f5;
+}
+.hot .hot_main{
+    width: 1226px;
+    height: 473px;
+    margin: 0 auto;
+    padding-top: 22px;
+}
+.hot_main .hot01{
+    width: 1226px;
+    overflow: hidden;
+}
+.hot01 li{
+    width: 296px;
+    height: 416px;
+    float: left;
+    margin-left: 14px;
+    background: #fff;
+}
+.hot01 .hot01_li{
+    margin-left: 0px;
+}
+.hot01 .girl{
+    display: block;
+    margin-bottom: 28px;
+}
+.hot01 .pingJia{
+    display: block;
+    width: 240px;
+    height: 72px;
+    margin: 0 auto 22px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.hot01 .pingJia:hover{
+    color: #333;
+}
+.hot01 .pingJia01{
+    width: 240px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #b0b0b0;
+    margin: 0 auto 8px;
+}
+.hot01 .pingJia02{
+    width: 240px;
+    margin: 0 auto;
+}
+.pingJia02 .pingJia_name{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 21px;
+}
+.pingJia02 .pingJia_name:hover{
+    color: #333;
+}
+.pingJia02 span{
+    margin: 0 4px;
+    color: #e0e0e0;
+}
+.pingJia02 b{
+    font: none 14px/1.5 ;
+    color: #ff6700;
+}
+
+/* 内容部位 */
+.hot .content_main{
+    height: 478px;
+}
+.content_main .content01 li{
+    height: 374px;
+    padding-top: 45px;
+    
+}
+.content01 .content01_li{
+    border-top: 1px solid #ffac13;
+
+}
+.content01_li h4{
+    width: 276px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffac13;
+    margin: 0 auto 18px;
+    text-align: center;
+}
+.content01_li h5{
+    width: 256px;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0 auto 5px;
+    text-align: center;
+    font-weight: 400;
+}
+.content01_li a:hover{
+    color: #333;
+}
+.content01_li h6{
+    width: 200px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #b0b0b0;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+.content01_li h6:hover{
+    color: #b0b0b0;
+}
+.content01_li .jiage{
+    width: 276px;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0 auto 15px;
+    text-align: center;
+}
+.content01_li .hali{
+    width: 216px;
+    margin: 0 auto;
+}
+
+/* 视频部分 */
+.hot .video_main{
+    height: 403px;
+    position: relative;
+}
+.video_main .video01{
+    height: 285px;
+}
+.video01 img{
+    display: block;
+    margin-bottom: 28px;
+}
+.video01 .title{
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.title a:hover {
+    color: #ff6700;
+}
+.video01 .title01{
+    color: #b0b0b0;
+    line-height: 18px;
+    text-align: center;
+}
+
+/* 右边的固定弹窗 */
+.fix_nva{
+    height: 560px;
+    width: 82px;
+    position: fixed;
+    right:0px ;
+    top: 50%;
+    margin-top: -280px;
+    
+}
+.fix_nva .fix_app{
+    display: block;
+    width: 82px;
+    border: 1px solid #f5f5f5;
+    border-bottom: none;
+    padding-top: 22px;
+    text-align: center;
+    background: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    
+    position: relative;
+}
+.fix_nva .fix_car{
+    border-bottom:1px solid #f5f5f5;
+    margin-bottom: 14px;
+}
+.fix_nva .fix_fanhui{
+    border-bottom:1px solid #f5f5f5;
+}
+.fix_app .fix_nva01{
+    display: block;
+    height: 68px;
+    color: #757575;
+}
+.fix_app .fix_nva01:hover{
+    color: #ff6700;
+}
+.fix_app .fix_nva01 span{
+    display: block; 
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+    /*弹出二维码  */
+.fix_app .tantan{
+    width: 136px;
+    height: 187px;
+    position: absolute;
+    top: 1px;
+    left: -142px;
+    display: none;
+}
+.fix_app:hover .tantan{
+    display: block;
+}
+.tantan .tantan_sanjiao01,.tantan_sanjiao02{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px;
+    position: absolute;
+    top: 39px;
+    z-index: 9999;
+}
+.tantan .tantan_sanjiao01{
+    border-color:transparent transparent transparent #f5f5f5;
+    left: 129px;
+ 
+}
+.tantan .tantan_sanjiao02{
+    border-color:transparent transparent transparent #fff;
+    left: 128px;
+}
+.tantan .er{
+    display: block;
+    width: 128px;
+    height: 165px;
+    position: absolute;
+    border: 1px solid #f5f5f5;
+    text-align: center;
+    background: #fff;
+    padding-top: 22px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #757575;
+}
+.tantan .er img{
+    display: block;
+    margin:0 auto 19px;
+
+}

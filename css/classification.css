@@ -1,0 +1,104 @@
+/* 首页所有分类 */
+.calssiffication{
+    width: 100%;
+    height: 40px;
+    min-width: 1226px;
+    background: #f5f5f5;
+}
+.calssiffication_main{
+    width: 1226px;
+    height: 40px;
+    margin: 0 auto;
+}
+.shouye,.all_fenlei{
+    font: 12px;
+    line-height: 40px;
+    color: #757575;
+}
+.calssiffication_main a:hover{
+    color: #333;
+}
+.calssiffication_main span{
+    margin: 0 6px 0;
+    font: 14px;
+    color: #757575;
+}
+/* 手机电话卡分类 */
+.Class{
+    width: 100%;
+    min-width: 1226px;
+    height: 880px;
+}
+.Class_main{
+    width: 1226px;
+    height: 874px;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+.Class_main h2{
+    line-height: 68px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #ff6700;
+}
+.Class_main h2 .iconfont{
+    font-size: 22px;
+    color: #b0b0b0;
+    margin-right: 18px;
+    visibility: top;
+}
+/*下面的表格 */
+table{
+    width: 1226px;
+    border: 0;
+}
+table tr td{
+    width: 245px;
+    height: 136px;
+    padding-top: 24px;
+    border-top: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+}
+table tr td a{
+    color: #757575;
+}
+td img{
+    display: block;
+    margin: 0 auto 14px;
+}
+table tr td a:hover{
+    color: #ff6700;
+}
+table tr .hang_last{
+    border-right: none;
+}
+/* 笔记本  pad部分 */
+.bijiPad{
+    height: 557px;
+}
+.bijiPad .Class_main{
+    height: 551px;
+}
+/* 智能 路由器 */
+.luYouQi{
+    height: 397px;
+}
+.luYouQi .Class_main{
+    height: 391px;
+}
+/* 生活 箱包 */
+.ErTong{
+    height: 719px;
+}
+.ErTong .Class_main{
+    height: 713px;
+}
+table tr .xaingbao{
+    border-bottom: 1px solid #e0e0e0;
+}
+.xiangBao{
+    margin-bottom: 100px;
+}

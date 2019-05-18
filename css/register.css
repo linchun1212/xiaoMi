@@ -1,0 +1,100 @@
+
+.register{
+    width: 100%;
+    min-width: 854px;
+    height: 548px;
+    background: #f9f9f9;
+}
+.register_main{
+    width: 854px;
+    height: 548px;
+    background: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+.register_main .zhuce_logo{
+    display: block;
+    
+}
+.register_main .zhuce_logo img{
+    vertical-align: middle;
+}
+.register_main h1{
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 47px;
+    font-weight: normal;
+}
+
+/*下面的表单部位 */
+.register_main .biaodan{
+    width: 332px;
+    height: 251px;
+    padding-top: 33px;
+    text-align: left;
+    margin: 0 auto;
+}
+.biaodan p{
+    font-size: 12px;
+    line-height: 30px;
+}
+#cuntry02{
+    position: relative;
+}
+#cuntry01{
+    width: 332px;
+    height: 40px;
+    padding-left: 14px;
+    outline: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    border: 1px solid #e8e8e8;
+    background: url(../images/biaodanbg.jpg) no-repeat 285px ;
+}
+.xiala{
+    width: 40px;
+    height: 40px;
+    border-left: 1px solid #e8e8e8;
+    background:url(../images/xiala.png) no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.biaodan .zhuce{
+    margin-bottom: 5px;
+}
+#tel01{
+    width: 72px;
+    height: 42px;
+    outline: none;
+    border: 1px solid #e8e8e8;
+    float: left;
+}
+#tel input{
+    width: 257px;
+    height: 40px;
+    color: #9d9d9d;
+    border: 1px solid #e8e8e8;
+    border-left: none;
+    float: left;
+    padding: 0;
+    outline: none;
+}
+#tel .tijiao{
+    width: 328px;
+    height: 42px;
+    border: 1px solid #ea8038;
+    text-align: center;
+    color: #fff;
+    margin: 30px auto;
+    background: #ff6700;
+}
+#tel .tijiao:hover{
+    cursor: pointer;
+}
+.register_main .zhushi02{
+    margin-top: 84px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #9d9d9d;
+}
